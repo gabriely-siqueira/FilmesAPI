@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo dos Filmes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-film"></i> Mundo dos Filmes</h1>
+    </header>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Buscar filme...">
+            <button id="search-button"><i class="fas fa-search"></i> Buscar</button>
+        </div>
+        <div id="movies-container"></div>
+    
+        <div id="movie-modal" class="modal">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2 id="modal-title"></h2>
+                <img id="modal-poster" src="" alt="">
+                <p id="modal-year"></p>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Mundo dos Filmes | <a href="https://gabriely-siqueira.netlify.app" target="_blank">Gabriely Siqueira</a></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
